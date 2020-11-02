@@ -1,0 +1,107 @@
+h1 {
+    font-family:  Georgia, Times;
+    text-align: center;
+}
+
+.h1-home {
+    font-family:  Georgia, Times;
+    
+}
+
+.img-home {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    padding: 60px;
+    border-radius: 40%;
+
+}
+
+nav {
+    font-family:  Georgia, Times;
+}
+
+
+.nav-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.link-home{
+    position: relative;
+    top: 0px;
+    padding: 5em;
+    padding-bottom: 10%;
+    font-size: 2em;
+    color: black ;
+    font-weight: bold
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.body-home {
+    background-color: lightgrey;
+
+}
+
+.nav-not-home{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+a{
+    padding: 2px;
+    color: black;
+    font-weight: normal;
+    font-family:  Georgia, Times;
+}
+
+section{
+    padding: 4%;
+    border-style: solid;
+    border-collapse: separate;
+    border-spacing: 10%;
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 0%;
+    font-family:  Georgia, Times;
+    font-size: 24px;
+}
+
+h3{
+    text-align: center;
+    font-family:  Georgia, Times;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+h4{
+    text-align: center;
+    font-family:  Georgia, Times;
+    font-weight: normal;
+    font-size: 15px;
+}
+ul{
+    font-family: Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
+
+li{
+    padding: 1%;
+    text-align: left;
+    font-size: 17px;
+}
+
+.ul-center{
+    text-align: left;
+    list-style-position: inside;
+}
