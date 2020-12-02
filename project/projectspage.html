@@ -1,38 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" type="text/css" href="resumestylesheet.css">
-        <style>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects</title>
+    <link rel="stylesheet" type="text/css" href="styles/resumestylesheet.css"/>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="homepage.html">Home Page</a></li>
+          <li><a href="resumepage.html">Resume</a></li>
+          <li><a href="projectspage.html">Projects</a></li>
+        </ul>
+      </nav>
 
-        </style>
-        <meta charset="UTF-8">
-        <title>Harshal's Projects</title>
-    </head>
+      <h3>Projects</h3>
+    </header>
 
-    <body>
-        <main>
-            <nav>
-                <a href="homepage.html">Home</a>
-            </nav>
-            <h1>Harshal Nanavati's Projects</h1>
-            <section>
-                <h2>E-commerce Web Crawler</h2>
-                <h3>July 2020 - Aug 2020</h3>
-                <ul>
-                    <li>Developed a web crawler in Python that automatically purchases items from a website within two seconds</li>
-                    <li>Used http requests, selenium web driver, user agents and a headless browser to interface with backend of e-commerce website</li>
-                    <li>Imported cookies from different web session to inconsistently bypass Google ReCaptcha v.3.0</li>
-                </ul>
-            </section>
-            <section>
-                <h2>Explicit Music Detector</h2>
-                <h3>Nov 2019 - Dec 2019</h3>
-                <ul>
-                    <li>Developed software program that highlighted explicit lyrics in song lyrics using Python</li>
-                    <li>User would input song title and artist name, and receive lyrics of the song, explicit words highlighted in red</li>
-                    <li>Utilized BeautifulSoup4 API to parse html and web scrape from genius.com</li>
-                </ul>
-            </section>
-        </main>
-    </body>
+    <main>
+      <p>Below are a list of coding projects I have worked on in my free time outside of school.</p>
+
+      <div class="projects">
+        <section>
+          <div>
+            <h2>E-commerce Web Crawler</h2>
+            <h3>July 2020 - Aug 2020</h3>
+            <ul>
+                <li>Developed a web crawler in Python that automatically purchases items from a website within two seconds</li>
+                <li>Used http requests, selenium web driver, user agents and a headless browser to interface with backend of e-commerce website</li>
+                <li>Imported cookies from different web session to inconsistently bypass Google ReCaptcha v.3.0</li>
+            </ul>
+            <img src="images/crawler.png" alt="Selenium"/>
+          </div>
+        </section>
+        <section>
+          <div>
+            <h2>Explicit Music Detector</h2>
+            <h3>Nov 2019 - Dec 2019</h3>
+            <ul>
+                <li>Developed software program that highlighted explicit lyrics in song lyrics using Python</li>
+                <li>User would input song title and artist name, and receive lyrics of the song, explicit words highlighted in red</li>
+                <li>Utilized BeautifulSoup4 API to parse html and web scrape from genius.com</li>
+            </ul>
+            <img src="images/genius.png" alt="Genius API Picture"/>
+          </div>
+        </section>
+      </div>
+
+
+
+
+
+
+    </main>
+  </body>
 </html>
