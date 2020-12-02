@@ -1,107 +1,123 @@
+body {
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+  
 h1 {
-    font-family:  Georgia, Times;
+    margin-left: 14px;
+    color: #000000;
+    font-size: 34px;
+}
+  
+h2 {
+    color: #000000;
+    font-size: 28px;
+    padding: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 10px;
+}
+  
+h3{
+    font-size: 30px;
+    max-width:400px;
     text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
-
-.h1-home {
-    font-family:  Georgia, Times;
-    
+  
+h4{
+    font-size: 20px;
 }
-
-.img-home {
+  
+p {
+    padding: 10px;
+    line-height: 1.35;
+    color: #ffffff;
+    border: dotted;
+    border-color: #727575;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #53595b;
+}
+  
+  
+li a{
+    color:#000000;
+    text-decoration: none;
+}
+  
+body nav ul{
+    text-align: center;
+    margin: auto;
+}
+  
+nav ul li{
+    background-color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0px 10px;
+    border-style: inset;
+    border-color: #c8c8c8;
+    min-width: 150px;
+}
+  
+nav ul li:hover{
+    background-color: lightgrey;
+}
+  
+.center{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 15%;
     padding: 60px;
     border-radius: 40%;
-
 }
-
-nav {
-    font-family:  Georgia, Times;
-}
-
-
-.nav-home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-}
-
-.link-home{
-    position: relative;
-    top: 0px;
-    padding: 5em;
-    padding-bottom: 10%;
-    font-size: 2em;
-    color: black ;
-    font-weight: bold
-}
-
-body {
-    background-color: lightgrey;
-}
-
-.body-home {
-    background-color: lightgrey;
-
-}
-
-.nav-not-home{
-    position: absolute;
-    top: 0;
-    left: 0;
-
-}
-
-a{
-    padding: 2px;
-    color: black;
-    font-weight: normal;
-    font-family:  Georgia, Times;
-}
-
 section{
-    padding: 4%;
+    margin-bottom: 10px;
     border-style: solid;
-    border-collapse: separate;
-    border-spacing: 10%;
+    margin-left: 5px;
+    margin-right: 5px;
+    min-width: 300px;
 }
-
-h2{
+.projects{
+    align-items: center;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
     text-align: center;
-    padding-bottom: 0%;
-    font-family:  Georgia, Times;
-    font-size: 24px;
+    align-content: center;
 }
-
-h3{
-    text-align: center;
-    font-family:  Georgia, Times;
-    font-weight: normal;
-    font-size: 20px;
+  
+.carousel-item{
+    margin: 0px auto;
+    max-width:400px;
 }
-
-h4{
-    text-align: center;
-    font-family:  Georgia, Times;
-    font-weight: normal;
-    font-size: 15px;
+  
+  
+  
+  
+  
+@media (max-width: 700px) {
+    nav ul li{
+      display: block;
+    }
+  
+    img{
+      margin-left:20px;
+      margin-right: 20px;
+    }
+  
+    body{
+      text-align: center;
+    }
+    .projects{
+      flex-direction: column;
+    }
+  
 }
-ul{
-    font-family: Times, 'Times New Roman', serif;
-    font-weight: lighter;
-}
-
-li{
-    padding: 1%;
-    text-align: left;
-    font-size: 17px;
-}
-
-.ul-center{
-    text-align: left;
-    list-style-position: inside;
-}
+  
